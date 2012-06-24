@@ -23,8 +23,8 @@ typedef enum {
 } UTMHemisphere;
 
 typedef struct {
-	UTMDouble northing;
-	UTMDouble easting;
+    UTMDouble northing;
+    UTMDouble easting;
     UTMGridZone gridZone;
     UTMHemisphere hemisphere;
 } UTMCoordinates;
