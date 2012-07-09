@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7201DEE15AB2510009BC53E /* UTMDatumMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMDatumMake.h; sourceTree = "<group>"; };
 		C7D6D3E41598F89600CDB537 /* UTMConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTMConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D6D3E81598F89600CDB537 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C7D6D3EA1598F89600CDB537 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +124,7 @@
 			children = (
 				C7D6D4251599001600CDB537 /* AddressAnnotation.h */,
 				C7D6D4261599001600CDB537 /* AddressAnnotation.m */,
+				C7201DEE15AB2510009BC53E /* UTMDatumMake.h */,
 				C7D6D4171598F8C600CDB537 /* UTMConverter.h */,
 				C7D6D4181598F8C600CDB537 /* UTMConverter.m */,
 				C7D6D3F71598F89600CDB537 /* CPAppDelegate.h */,
@@ -435,6 +437,7 @@
 				C7D6D4131598F89600CDB537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7D6D4141598F89600CDB537 /* Build configuration list for PBXNativeTarget "UTMConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +446,7 @@
 				C7D6D4161598F89600CDB537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

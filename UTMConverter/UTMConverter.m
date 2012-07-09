@@ -12,6 +12,8 @@
 
 #import "UTMConverter.h"
 
+#import "UTMDatumMake.h"
+
 
 
 @interface UTMConverter ()
@@ -31,7 +33,9 @@ double degreesToRadians(double degrees);
 - (id)init {
     self = [super init];
     if (self != nil) {
-        UTMDatum wgs84datum = UTMDatumMake(6378137, 6356752.3142);
+        UTMDouble equitorialRadius = 6378137;
+        UTMDouble polarRadius = 6356752.3142;
+        UTMDatum wgs84datum = UTMDatumMake(equitorialRadius, polarRadius);
         
         _utmDatum = wgs84datum;
         
@@ -361,18 +365,6 @@ double radiansToDegrees(double radians) {
 
 double degreesToRadians(double degrees) {   
     return degrees / 180 * M_PI;
-}
-
-
-
-//
-// Helper to make a datum
-UTMDatum UTMDatumMake(UTMDouble equitorialRadius, UTMDouble polarRadius) {
-    UTMDatum utmDatum;
-    utmDatum.equitorialRadius = equitorialRadius;
-    utmDatum.polarRadius = polarRadius;
-    
-    return utmDatum;
 }
 
 @end
