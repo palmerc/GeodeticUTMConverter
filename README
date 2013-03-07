@@ -1,3 +1,0 @@
-In working on the Trafikanten JSON API I needed to be able to convert from UTM coordinates, which is the native Trafikanten location mapping, to the more common format of latitude and longitude. After digging, reading, and experimenting, this is what we came up with.
-
-You only need the files UTMConverter{h,m}. The rest is provided just to show the classes in action.
