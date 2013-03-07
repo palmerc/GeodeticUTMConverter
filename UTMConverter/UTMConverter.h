@@ -49,7 +49,4 @@ typedef struct {
 
 - (CLLocationCoordinate2D)UTMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)UTMCoordinates;
 - (UTMCoordinates)latitudeAndLongitudeToUTMCoordinates:(CLLocationCoordinate2D)latitudeAndLongitudeCoordinates;
-
-UTMDatum UTMDatumMake(UTMDouble equitorialRadius, UTMDouble polarRadius);
-
 @end
