@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = "UTMConverter"
-  s.version      = "1.0.0"
+  s.name         = "GeodeticUTMConverter"
+  s.version      = "1.0.1"
   s.platform     = :ios, "6.0"
   s.summary      = "An Objective-C UTM to LatLon Converter."
   s.frameworks   = "MapKit"
@@ -15,6 +15,6 @@ Universal Transverse Mercator (UTM) was a method used primarily by the US Army C
   s.author       = { "Cameron Lowell Palmer" => "cameron.palmer@gmail.com" }
   s.source       = { :git => "https://github.com/palmerc/UTMConverter.git", :tag => "1.0.0" }
   s.prefix_header_contents = '#import <MapKit/MapKit.h>'
-  s.source_files = 'UTMConverter/Classes'
+  s.source_files = 'GeodeticUTMConverter/Classes/*.{h,m}'
   s.requires_arc = true
 end
