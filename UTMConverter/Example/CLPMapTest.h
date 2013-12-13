@@ -1,5 +1,5 @@
 //
-//  main.m
+//  MapTest.h
 //  UTMConverter
 //
 //  Created by Cameron Lowell Palmer & Mariia Ruchko on 19.06.12.
@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-#import "CPAppDelegate.h"
+#import <MapKit/MapKit.h>
 
-int main(int argc, char *argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CPAppDelegate class]));
-    }
+
+@interface CLPMapTest : UIViewController {
+@private
+    MKMapView *_mapView;
 }
+
+@property (nonatomic, strong) IBOutlet MKMapView *mapView;
+
+@end

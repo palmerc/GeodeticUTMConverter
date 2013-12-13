@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C748EA54171C75C500CAB770 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C748EA53171C75C500CAB770 /* Default-568h@2x.png */; };
+		C748EA5A171CA20100CAB770 /* CLPGeodeticUTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C748EA58171CA20100CAB770 /* CLPGeodeticUTMConverter.m */; };
+		C79D72AC185B0FBA0093985D /* CLPAddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72A1185B0FBA0093985D /* CLPAddressAnnotation.m */; };
+		C79D72AD185B0FBA0093985D /* CLPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72A3185B0FBA0093985D /* CLPAppDelegate.m */; };
+		C79D72AE185B0FBA0093985D /* CLPMapTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72A5185B0FBA0093985D /* CLPMapTest.m */; };
+		C79D72AF185B0FBA0093985D /* CLPMapTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79D72A6185B0FBA0093985D /* CLPMapTest.xib */; };
+		C79D72B0185B0FBA0093985D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C79D72A7185B0FBA0093985D /* InfoPlist.strings */; };
+		C79D72B1185B0FBA0093985D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72A9185B0FBA0093985D /* main.m */; };
 		C7D6D3E91598F89600CDB537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3E81598F89600CDB537 /* UIKit.framework */; };
 		C7D6D3EB1598F89600CDB537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3EA1598F89600CDB537 /* Foundation.framework */; };
 		C7D6D3ED1598F89600CDB537 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3EC1598F89600CDB537 /* CoreGraphics.framework */; };
-		C7D6D3F31598F89600CDB537 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D6D3F11598F89600CDB537 /* InfoPlist.strings */; };
-		C7D6D3F51598F89600CDB537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6D3F41598F89600CDB537 /* main.m */; };
-		C7D6D3F91598F89600CDB537 /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6D3F81598F89600CDB537 /* CPAppDelegate.m */; };
 		C7D6D4011598F89600CDB537 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D4001598F89600CDB537 /* SenTestingKit.framework */; };
 		C7D6D4021598F89600CDB537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3E81598F89600CDB537 /* UIKit.framework */; };
 		C7D6D4031598F89600CDB537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3EA1598F89600CDB537 /* Foundation.framework */; };
 		C7D6D40B1598F89600CDB537 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D6D4091598F89600CDB537 /* InfoPlist.strings */; };
 		C7D6D40E1598F89600CDB537 /* UTMConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6D40D1598F89600CDB537 /* UTMConverterTests.m */; };
-		C7D6D4191598F8C600CDB537 /* UTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6D4181598F8C600CDB537 /* UTMConverter.m */; };
-		C7D6D41D1598FDE700CDB537 /* MapTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6D41B1598FDE700CDB537 /* MapTest.m */; };
-		C7D6D41E1598FDE700CDB537 /* MapTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D6D41C1598FDE700CDB537 /* MapTest.xib */; };
 		C7D6D4201598FE2B00CDB537 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D41F1598FE2A00CDB537 /* MapKit.framework */; };
-		C7D6D4271599001600CDB537 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6D4261599001600CDB537 /* AddressAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,31 +37,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7201DEE15AB2510009BC53E /* UTMDatumMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMDatumMake.h; sourceTree = "<group>"; };
+		C748EA53171C75C500CAB770 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C748EA57171CA20100CAB770 /* CLPGeodeticUTMConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPGeodeticUTMConverter.h; sourceTree = "<group>"; };
+		C748EA58171CA20100CAB770 /* CLPGeodeticUTMConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPGeodeticUTMConverter.m; sourceTree = "<group>"; };
+		C79D72A0185B0FBA0093985D /* CLPAddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPAddressAnnotation.h; sourceTree = "<group>"; };
+		C79D72A1185B0FBA0093985D /* CLPAddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPAddressAnnotation.m; sourceTree = "<group>"; };
+		C79D72A2185B0FBA0093985D /* CLPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPAppDelegate.h; sourceTree = "<group>"; };
+		C79D72A3185B0FBA0093985D /* CLPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPAppDelegate.m; sourceTree = "<group>"; };
+		C79D72A4185B0FBA0093985D /* CLPMapTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPMapTest.h; sourceTree = "<group>"; };
+		C79D72A5185B0FBA0093985D /* CLPMapTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPMapTest.m; sourceTree = "<group>"; };
+		C79D72A6185B0FBA0093985D /* CLPMapTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLPMapTest.xib; sourceTree = "<group>"; };
+		C79D72A8185B0FBA0093985D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C79D72A9185B0FBA0093985D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C79D72AA185B0FBA0093985D /* UTMConverter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UTMConverter-Info.plist"; sourceTree = "<group>"; };
+		C79D72AB185B0FBA0093985D /* UTMConverter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UTMConverter-Prefix.pch"; sourceTree = "<group>"; };
 		C7D6D3E41598F89600CDB537 /* UTMConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTMConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D6D3E81598F89600CDB537 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C7D6D3EA1598F89600CDB537 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7D6D3EC1598F89600CDB537 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C7D6D3F01598F89600CDB537 /* UTMConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UTMConverter-Info.plist"; sourceTree = "<group>"; };
-		C7D6D3F21598F89600CDB537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C7D6D3F41598F89600CDB537 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C7D6D3F61598F89600CDB537 /* UTMConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UTMConverter-Prefix.pch"; sourceTree = "<group>"; };
-		C7D6D3F71598F89600CDB537 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
-		C7D6D3F81598F89600CDB537 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
 		C7D6D3FF1598F89600CDB537 /* UTMConverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTMConverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D6D4001598F89600CDB537 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C7D6D4081598F89600CDB537 /* UTMConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UTMConverterTests-Info.plist"; sourceTree = "<group>"; };
 		C7D6D40A1598F89600CDB537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7D6D40C1598F89600CDB537 /* UTMConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTMConverterTests.h; sourceTree = "<group>"; };
 		C7D6D40D1598F89600CDB537 /* UTMConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTMConverterTests.m; sourceTree = "<group>"; };
-		C7D6D4171598F8C600CDB537 /* UTMConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMConverter.h; sourceTree = "<group>"; };
-		C7D6D4181598F8C600CDB537 /* UTMConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMConverter.m; sourceTree = "<group>"; };
-		C7D6D41A1598FDE700CDB537 /* MapTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTest.h; sourceTree = "<group>"; };
-		C7D6D41B1598FDE700CDB537 /* MapTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTest.m; sourceTree = "<group>"; };
-		C7D6D41C1598FDE700CDB537 /* MapTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapTest.xib; sourceTree = "<group>"; };
 		C7D6D41F1598FE2A00CDB537 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		C7D6D4251599001600CDB537 /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
-		C7D6D4261599001600CDB537 /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +89,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C748EA56171CA20100CAB770 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C748EA57171CA20100CAB770 /* CLPGeodeticUTMConverter.h */,
+				C748EA58171CA20100CAB770 /* CLPGeodeticUTMConverter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C79D729F185B0FBA0093985D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C79D72A0185B0FBA0093985D /* CLPAddressAnnotation.h */,
+				C79D72A1185B0FBA0093985D /* CLPAddressAnnotation.m */,
+				C79D72A2185B0FBA0093985D /* CLPAppDelegate.h */,
+				C79D72A3185B0FBA0093985D /* CLPAppDelegate.m */,
+				C79D72A4185B0FBA0093985D /* CLPMapTest.h */,
+				C79D72A5185B0FBA0093985D /* CLPMapTest.m */,
+				C79D72A6185B0FBA0093985D /* CLPMapTest.xib */,
+				C79D72A7185B0FBA0093985D /* InfoPlist.strings */,
+				C79D72A9185B0FBA0093985D /* main.m */,
+				C79D72AA185B0FBA0093985D /* UTMConverter-Info.plist */,
+				C79D72AB185B0FBA0093985D /* UTMConverter-Prefix.pch */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		C7D6D3D91598F89600CDB537 = {
 			isa = PBXGroup;
 			children = (
+				C748EA53171C75C500CAB770 /* Default-568h@2x.png */,
 				C7D6D3EE1598F89600CDB537 /* UTMConverter */,
 				C7D6D4061598F89600CDB537 /* UTMConverterTests */,
 				C7D6D3E71598F89600CDB537 /* Frameworks */,
@@ -122,30 +151,10 @@
 		C7D6D3EE1598F89600CDB537 /* UTMConverter */ = {
 			isa = PBXGroup;
 			children = (
-				C7D6D4251599001600CDB537 /* AddressAnnotation.h */,
-				C7D6D4261599001600CDB537 /* AddressAnnotation.m */,
-				C7201DEE15AB2510009BC53E /* UTMDatumMake.h */,
-				C7D6D4171598F8C600CDB537 /* UTMConverter.h */,
-				C7D6D4181598F8C600CDB537 /* UTMConverter.m */,
-				C7D6D3F71598F89600CDB537 /* CPAppDelegate.h */,
-				C7D6D3F81598F89600CDB537 /* CPAppDelegate.m */,
-				C7D6D41A1598FDE700CDB537 /* MapTest.h */,
-				C7D6D41B1598FDE700CDB537 /* MapTest.m */,
-				C7D6D41C1598FDE700CDB537 /* MapTest.xib */,
-				C7D6D3EF1598F89600CDB537 /* Supporting Files */,
+				C79D729F185B0FBA0093985D /* Example */,
+				C748EA56171CA20100CAB770 /* Classes */,
 			);
 			path = UTMConverter;
-			sourceTree = "<group>";
-		};
-		C7D6D3EF1598F89600CDB537 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C7D6D3F01598F89600CDB537 /* UTMConverter-Info.plist */,
-				C7D6D3F11598F89600CDB537 /* InfoPlist.strings */,
-				C7D6D3F41598F89600CDB537 /* main.m */,
-				C7D6D3F61598F89600CDB537 /* UTMConverter-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C7D6D4061598F89600CDB537 /* UTMConverterTests */ = {
@@ -212,7 +221,7 @@
 		C7D6D3DB1598F89600CDB537 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = C7D6D3DE1598F89600CDB537 /* Build configuration list for PBXProject "UTMConverter" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -237,8 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D6D3F31598F89600CDB537 /* InfoPlist.strings in Resources */,
-				C7D6D41E1598FDE700CDB537 /* MapTest.xib in Resources */,
+				C79D72AF185B0FBA0093985D /* CLPMapTest.xib in Resources */,
+				C79D72B0185B0FBA0093985D /* InfoPlist.strings in Resources */,
+				C748EA54171C75C500CAB770 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D6D3F51598F89600CDB537 /* main.m in Sources */,
-				C7D6D3F91598F89600CDB537 /* CPAppDelegate.m in Sources */,
-				C7D6D4191598F8C600CDB537 /* UTMConverter.m in Sources */,
-				C7D6D41D1598FDE700CDB537 /* MapTest.m in Sources */,
-				C7D6D4271599001600CDB537 /* AddressAnnotation.m in Sources */,
+				C79D72B1185B0FBA0093985D /* main.m in Sources */,
+				C79D72AE185B0FBA0093985D /* CLPMapTest.m in Sources */,
+				C748EA5A171CA20100CAB770 /* CLPGeodeticUTMConverter.m in Sources */,
+				C79D72AD185B0FBA0093985D /* CLPAppDelegate.m in Sources */,
+				C79D72AC185B0FBA0093985D /* CLPAddressAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,10 +310,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C7D6D3F11598F89600CDB537 /* InfoPlist.strings */ = {
+		C79D72A7185B0FBA0093985D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C7D6D3F21598F89600CDB537 /* en */,
+				C79D72A8185B0FBA0093985D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -323,7 +333,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
@@ -338,12 +347,13 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -352,7 +362,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
@@ -360,12 +369,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -375,9 +384,10 @@
 		C7D6D4121598F89600CDB537 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UTMConverter/UTMConverter-Prefix.pch";
-				INFOPLIST_FILE = "UTMConverter/UTMConverter-Info.plist";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = "UTMConverter/Example/UTMConverter-Prefix.pch";
+				INFOPLIST_FILE = "UTMConverter/Example/UTMConverter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,9 +396,10 @@
 		C7D6D4131598F89600CDB537 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UTMConverter/UTMConverter-Prefix.pch";
-				INFOPLIST_FILE = "UTMConverter/UTMConverter-Info.plist";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = "UTMConverter/Example/UTMConverter-Prefix.pch";
+				INFOPLIST_FILE = "UTMConverter/Example/UTMConverter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

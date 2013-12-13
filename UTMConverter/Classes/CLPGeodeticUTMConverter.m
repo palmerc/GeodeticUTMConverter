@@ -9,26 +9,20 @@
 //  Reference: Hoffmann-Wellenhof, B., Lichtenegger, H., and Collins, J., GPS: Theory and Practice, 3rd ed.  New York: Springer-Verlag Wien, 1994.
 //
 
-
-#import "UTMConverter.h"
-
-#import "UTMDatumMake.h"
+#import "CLPGeodeticUTMConverter.h"
 
 
 
-@interface UTMConverter ()
-- (UTMDouble)arcLengthOfMeridian:(UTMDouble)phi;
-- (UTMDouble)UTMCentralMeridian:(UTMGridZone)zone;
-- (CLLocationCoordinate2D)TMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)TMCoordinates andCentralMeridian:(UTMDouble)lambda0;
-- (UTMCoordinates)latitudeAndLongitudeToTMCoordinates:(CLLocationCoordinate2D)coordinates centralMeridian:(UTMDouble)longitudeOfCentralMeridianInRadians;
+@interface CLPGeodeticUTMConverter ()
+@property (assign, nonatomic) UTMDouble utmScaleFactor;
+
 double radiansToDegrees(double radians);
 double degreesToRadians(double degrees);
 @end
 
 
 
-@implementation UTMConverter
-@synthesize utmDatum = _utmDatum;
+@implementation CLPGeodeticUTMConverter
 
 - (id)init {
     self = [super init];
@@ -58,8 +52,7 @@ double degreesToRadians(double degrees);
 
 
 
-#pragma mark -
-#pragma mark Public Interface methods
+#pragma mark - Public Interface methods
 - (UTMCoordinates)latitudeAndLongitudeToUTMCoordinates:(CLLocationCoordinate2D)latitudeAndLongitudeCoordinates {
     UTMCoordinates utmCoordinates;
     
@@ -122,8 +115,7 @@ double degreesToRadians(double degrees);
 
 
 
-#pragma mark -
-#pragma mark Private Category methods
+#pragma mark - Private Category methods
 
 //
 // Computes the ellipsoidal distance from the equator to a point at a given latitude in meters

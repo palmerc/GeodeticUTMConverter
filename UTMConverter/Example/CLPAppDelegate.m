@@ -6,30 +6,26 @@
 //  Copyright (c) 2012 Cameron Lowell Palmer & Mariia Ruchko. All rights reserved.
 //
 
-#import "CPAppDelegate.h"
+#import "CLPAppDelegate.h"
 
-#import "MapTest.h"
+#import "CLPMapTest.h"
 
 
-@implementation CPAppDelegate
 
-@synthesize window = _window;
+@interface CLPAppDelegate ()
+@end
 
-- (void)dealloc
-{
-    [_mapTest release];
-    [_window release];
-    
-    [super dealloc];
-}
+
+
+@implementation CLPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor redColor];
 
-    _mapTest = [[MapTest alloc] init];
+    _mapTest = [[CLPMapTest alloc] init];
     [self.window addSubview:_mapTest.view];
     CGRect frame = _mapTest.view.frame;
     frame.origin.y += 20;

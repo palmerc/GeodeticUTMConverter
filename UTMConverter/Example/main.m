@@ -1,5 +1,5 @@
 //
-//  CPAppDelegate.h
+//  main.m
 //  UTMConverter
 //
 //  Created by Cameron Lowell Palmer & Mariia Ruchko on 19.06.12.
@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CPAppDelegate : UIResponder <UIApplicationDelegate> {
-@private
-    UIViewController *_mapTest;
+#import "CLPAppDelegate.h"
+
+int main(int argc, char *argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CLPAppDelegate class]));
+    }
 }
-
-@property (strong, nonatomic) UIWindow *window;
-
-@end

@@ -11,10 +11,10 @@
 
 
 
-@interface AddressAnnotation : NSObject <MKAnnotation> {
-	CLLocationCoordinate2D coordinate;
-}
+@interface CLPAddressAnnotation : NSObject <MKAnnotation>
 
--(id)initWithCoordinate:(CLLocationCoordinate2D)c;
+@property (assign, nonatomic) CLLocationCoordinate2D coordinate;
+
+-(id)initWithCoordinate:(CLLocationCoordinate2D)coordinate;
 
 @end
