@@ -8,7 +8,7 @@
 
 #import "CLPAppDelegate.h"
 
-#import "CLPMapTest.h"
+#import "CLPMapTestViewController.h"
 
 
 
@@ -25,7 +25,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor redColor];
 
-    _mapTest = [[CLPMapTest alloc] init];
+    _mapTest = [[CLPMapTestViewController alloc] init];
     [self.window addSubview:_mapTest.view];
     CGRect frame = _mapTest.view.frame;
     frame.origin.y += 20;

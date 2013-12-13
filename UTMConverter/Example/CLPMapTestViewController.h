@@ -11,7 +11,7 @@
 #import <MapKit/MapKit.h>
 
 
-@interface CLPMapTest : UIViewController {
+@interface CLPMapTestViewController : UIViewController {
 @private
     MKMapView *_mapView;
 }

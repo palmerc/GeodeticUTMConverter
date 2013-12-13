@@ -11,8 +11,8 @@
 		C748EA5A171CA20100CAB770 /* CLPGeodeticUTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C748EA58171CA20100CAB770 /* CLPGeodeticUTMConverter.m */; };
 		C79D72AC185B0FBA0093985D /* CLPAddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72A1185B0FBA0093985D /* CLPAddressAnnotation.m */; };
 		C79D72AD185B0FBA0093985D /* CLPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72A3185B0FBA0093985D /* CLPAppDelegate.m */; };
-		C79D72AE185B0FBA0093985D /* CLPMapTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72A5185B0FBA0093985D /* CLPMapTest.m */; };
-		C79D72AF185B0FBA0093985D /* CLPMapTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79D72A6185B0FBA0093985D /* CLPMapTest.xib */; };
+		C79D72AE185B0FBA0093985D /* CLPMapTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72A5185B0FBA0093985D /* CLPMapTestViewController.m */; };
+		C79D72AF185B0FBA0093985D /* CLPMapTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79D72A6185B0FBA0093985D /* CLPMapTestViewController.xib */; };
 		C79D72B0185B0FBA0093985D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C79D72A7185B0FBA0093985D /* InfoPlist.strings */; };
 		C79D72B1185B0FBA0093985D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72A9185B0FBA0093985D /* main.m */; };
 		C7D6D3E91598F89600CDB537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3E81598F89600CDB537 /* UIKit.framework */; };
@@ -44,9 +44,9 @@
 		C79D72A1185B0FBA0093985D /* CLPAddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPAddressAnnotation.m; sourceTree = "<group>"; };
 		C79D72A2185B0FBA0093985D /* CLPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPAppDelegate.h; sourceTree = "<group>"; };
 		C79D72A3185B0FBA0093985D /* CLPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPAppDelegate.m; sourceTree = "<group>"; };
-		C79D72A4185B0FBA0093985D /* CLPMapTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPMapTest.h; sourceTree = "<group>"; };
-		C79D72A5185B0FBA0093985D /* CLPMapTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPMapTest.m; sourceTree = "<group>"; };
-		C79D72A6185B0FBA0093985D /* CLPMapTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLPMapTest.xib; sourceTree = "<group>"; };
+		C79D72A4185B0FBA0093985D /* CLPMapTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPMapTestViewController.h; sourceTree = "<group>"; };
+		C79D72A5185B0FBA0093985D /* CLPMapTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPMapTestViewController.m; sourceTree = "<group>"; };
+		C79D72A6185B0FBA0093985D /* CLPMapTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLPMapTestViewController.xib; sourceTree = "<group>"; };
 		C79D72A8185B0FBA0093985D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C79D72A9185B0FBA0093985D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C79D72AA185B0FBA0093985D /* UTMConverter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UTMConverter-Info.plist"; sourceTree = "<group>"; };
@@ -105,9 +105,9 @@
 				C79D72A1185B0FBA0093985D /* CLPAddressAnnotation.m */,
 				C79D72A2185B0FBA0093985D /* CLPAppDelegate.h */,
 				C79D72A3185B0FBA0093985D /* CLPAppDelegate.m */,
-				C79D72A4185B0FBA0093985D /* CLPMapTest.h */,
-				C79D72A5185B0FBA0093985D /* CLPMapTest.m */,
-				C79D72A6185B0FBA0093985D /* CLPMapTest.xib */,
+				C79D72A4185B0FBA0093985D /* CLPMapTestViewController.h */,
+				C79D72A5185B0FBA0093985D /* CLPMapTestViewController.m */,
+				C79D72A6185B0FBA0093985D /* CLPMapTestViewController.xib */,
 				C79D72A7185B0FBA0093985D /* InfoPlist.strings */,
 				C79D72A9185B0FBA0093985D /* main.m */,
 				C79D72AA185B0FBA0093985D /* UTMConverter-Info.plist */,
@@ -246,7 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79D72AF185B0FBA0093985D /* CLPMapTest.xib in Resources */,
+				C79D72AF185B0FBA0093985D /* CLPMapTestViewController.xib in Resources */,
 				C79D72B0185B0FBA0093985D /* InfoPlist.strings in Resources */,
 				C748EA54171C75C500CAB770 /* Default-568h@2x.png in Resources */,
 			);
@@ -284,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79D72B1185B0FBA0093985D /* main.m in Sources */,
-				C79D72AE185B0FBA0093985D /* CLPMapTest.m in Sources */,
+				C79D72AE185B0FBA0093985D /* CLPMapTestViewController.m in Sources */,
 				C748EA5A171CA20100CAB770 /* CLPGeodeticUTMConverter.m in Sources */,
 				C79D72AD185B0FBA0093985D /* CLPAppDelegate.m in Sources */,
 				C79D72AC185B0FBA0093985D /* CLPAddressAnnotation.m in Sources */,

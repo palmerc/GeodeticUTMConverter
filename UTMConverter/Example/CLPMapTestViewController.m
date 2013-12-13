@@ -6,20 +6,19 @@
 //  Copyright (c) 2012 Cameron Lowell Palmer & Mariia Ruchko. All rights reserved.
 //
 
-#import "CLPMapTest.h"
+#import "CLPMapTestViewController.h"
 
 #import "CLPGeodeticUTMConverter.h"
 #import "CLPAddressAnnotation.h"
 
 
 
-@interface CLPMapTest ()
-
+@interface CLPMapTestViewController ()
 @end
 
 
 
-@implementation CLPMapTest
+@implementation CLPMapTestViewController
 
 #pragma mark - View lifecycle
 
