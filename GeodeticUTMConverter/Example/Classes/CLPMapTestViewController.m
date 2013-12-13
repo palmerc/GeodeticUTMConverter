@@ -8,7 +8,7 @@
 
 #import "CLPMapTestViewController.h"
 
-#import "CLPGeodeticUTMConverter.h"
+#import "GeodeticUTMConverter.h"
 #import "CLPAddressAnnotation.h"
 
 
@@ -32,7 +32,7 @@
     coordinates.easting = 598430;
     coordinates.hemisphere = kUTMHemisphereNorthern;
     
-    CLPGeodeticUTMConverter *converter = [[CLPGeodeticUTMConverter alloc] init];
+    GeodeticUTMConverter *converter = [[GeodeticUTMConverter alloc] init];
     CLLocationCoordinate2D groenland = [converter UTMCoordinatesToLatitudeAndLongitude:coordinates];
     
     CLPAddressAnnotation *annotationAddress = [[CLPAddressAnnotation alloc] initWithCoordinate:groenland];

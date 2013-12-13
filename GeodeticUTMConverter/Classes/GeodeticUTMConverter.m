@@ -9,11 +9,11 @@
 //  Reference: Hoffmann-Wellenhof, B., Lichtenegger, H., and Collins, J., GPS: Theory and Practice, 3rd ed.  New York: Springer-Verlag Wien, 1994.
 //
 
-#import "CLPGeodeticUTMConverter.h"
+#import "GeodeticUTMConverter.h"
 
 
 
-@interface CLPGeodeticUTMConverter ()
+@interface GeodeticUTMConverter ()
 @property (assign, nonatomic) UTMDouble utmScaleFactor;
 
 double radiansToDegrees(double radians);
@@ -22,7 +22,7 @@ double degreesToRadians(double degrees);
 
 
 
-@implementation CLPGeodeticUTMConverter
+@implementation GeodeticUTMConverter
 
 - (id)init {
     self = [super init];

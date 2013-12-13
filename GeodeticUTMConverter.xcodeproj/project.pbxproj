@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C79D72CE185B13420093985D /* CLPGeodeticUTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72B6185B13420093985D /* CLPGeodeticUTMConverter.m */; };
+		C79D72CE185B13420093985D /* GeodeticUTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72B6185B13420093985D /* GeodeticUTMConverter.m */; };
 		C79D72CF185B13420093985D /* CLPAddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72BA185B13420093985D /* CLPAddressAnnotation.m */; };
 		C79D72D0185B13420093985D /* CLPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72BC185B13420093985D /* CLPAppDelegate.m */; };
 		C79D72D1185B13420093985D /* CLPMapTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72BE185B13420093985D /* CLPMapTestViewController.m */; };
@@ -16,7 +16,7 @@
 		C79D72D4185B13420093985D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C79D72C2185B13420093985D /* InfoPlist.strings */; };
 		C79D72D6185B13420093985D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72C7185B13420093985D /* main.m */; };
 		C79D72D7185B13420093985D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C79D72C9185B13420093985D /* InfoPlist.strings */; };
-		C79D72DA185B135B0093985D /* CLPGeodeticUTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72B6185B13420093985D /* CLPGeodeticUTMConverter.m */; };
+		C79D72DA185B135B0093985D /* GeodeticUTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72B6185B13420093985D /* GeodeticUTMConverter.m */; };
 		C79D72DB185B13630093985D /* UTMConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72CD185B13420093985D /* UTMConverterTests.m */; };
 		C7D6D3E91598F89600CDB537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3E81598F89600CDB537 /* UIKit.framework */; };
 		C7D6D3EB1598F89600CDB537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3EA1598F89600CDB537 /* Foundation.framework */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C79D72B5185B13420093985D /* CLPGeodeticUTMConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPGeodeticUTMConverter.h; sourceTree = "<group>"; };
-		C79D72B6185B13420093985D /* CLPGeodeticUTMConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPGeodeticUTMConverter.m; sourceTree = "<group>"; };
+		C79D72B5185B13420093985D /* GeodeticUTMConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeodeticUTMConverter.h; sourceTree = "<group>"; };
+		C79D72B6185B13420093985D /* GeodeticUTMConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeodeticUTMConverter.m; sourceTree = "<group>"; };
 		C79D72B9185B13420093985D /* CLPAddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPAddressAnnotation.h; sourceTree = "<group>"; };
 		C79D72BA185B13420093985D /* CLPAddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPAddressAnnotation.m; sourceTree = "<group>"; };
 		C79D72BB185B13420093985D /* CLPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPAppDelegate.h; sourceTree = "<group>"; };
@@ -102,8 +102,8 @@
 		C79D72B4185B13420093985D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C79D72B5185B13420093985D /* CLPGeodeticUTMConverter.h */,
-				C79D72B6185B13420093985D /* CLPGeodeticUTMConverter.m */,
+				C79D72B5185B13420093985D /* GeodeticUTMConverter.h */,
+				C79D72B6185B13420093985D /* GeodeticUTMConverter.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -301,7 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79D72D6185B13420093985D /* main.m in Sources */,
-				C79D72CE185B13420093985D /* CLPGeodeticUTMConverter.m in Sources */,
+				C79D72CE185B13420093985D /* GeodeticUTMConverter.m in Sources */,
 				C79D72D1185B13420093985D /* CLPMapTestViewController.m in Sources */,
 				C79D72D0185B13420093985D /* CLPAppDelegate.m in Sources */,
 				C79D72CF185B13420093985D /* CLPAddressAnnotation.m in Sources */,
@@ -312,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79D72DA185B135B0093985D /* CLPGeodeticUTMConverter.m in Sources */,
+				C79D72DA185B135B0093985D /* GeodeticUTMConverter.m in Sources */,
 				C79D72DB185B13630093985D /* UTMConverterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
