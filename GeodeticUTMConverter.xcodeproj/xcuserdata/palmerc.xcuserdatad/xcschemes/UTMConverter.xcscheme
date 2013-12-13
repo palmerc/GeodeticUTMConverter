@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C7D6D3E31598F89600CDB537"
-               BuildableName = "UTMConverter.app"
-               BlueprintName = "UTMConverter"
-               ReferencedContainer = "container:UTMConverter.xcodeproj">
+               BuildableName = "GeodeticUTMConverter.app"
+               BlueprintName = "GeodeticUTMConverter"
+               ReferencedContainer = "container:GeodeticUTMConverter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C7D6D3FE1598F89600CDB537"
-               BuildableName = "UTMConverterTests.octest"
-               BlueprintName = "UTMConverterTests"
-               ReferencedContainer = "container:UTMConverter.xcodeproj">
+               BuildableName = "GeodeticUTMConverterTests.octest"
+               BlueprintName = "GeodeticUTMConverterTests"
+               ReferencedContainer = "container:GeodeticUTMConverter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C7D6D3E31598F89600CDB537"
-            BuildableName = "UTMConverter.app"
-            BlueprintName = "UTMConverter"
-            ReferencedContainer = "container:UTMConverter.xcodeproj">
+            BuildableName = "GeodeticUTMConverter.app"
+            BlueprintName = "GeodeticUTMConverter"
+            ReferencedContainer = "container:GeodeticUTMConverter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C7D6D3E31598F89600CDB537"
-            BuildableName = "UTMConverter.app"
-            BlueprintName = "UTMConverter"
-            ReferencedContainer = "container:UTMConverter.xcodeproj">
+            BuildableName = "GeodeticUTMConverter.app"
+            BlueprintName = "GeodeticUTMConverter"
+            ReferencedContainer = "container:GeodeticUTMConverter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C7D6D3E31598F89600CDB537"
-            BuildableName = "UTMConverter.app"
-            BlueprintName = "UTMConverter"
-            ReferencedContainer = "container:UTMConverter.xcodeproj">
+            BuildableName = "GeodeticUTMConverter.app"
+            BlueprintName = "GeodeticUTMConverter"
+            ReferencedContainer = "container:GeodeticUTMConverter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
