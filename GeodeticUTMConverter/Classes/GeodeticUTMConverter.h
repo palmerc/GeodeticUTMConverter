@@ -35,7 +35,7 @@ typedef struct {
 
 
 
-@interface CLPGeodeticUTMConverter : NSObject
+@interface GeodeticUTMConverter : NSObject
 
 @property (nonatomic, assign) UTMDatum utmDatum;
 
