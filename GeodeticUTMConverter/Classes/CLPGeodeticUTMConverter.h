@@ -9,7 +9,6 @@
 //  Reference: Hoffmann-Wellenhof, B., Lichtenegger, H., and Collins, J., GPS: Theory and Practice, 3rd ed.  New York: Springer-Verlag Wien, 1994.
 //
 
-
 #import <MapKit/MapKit.h>
 
 
@@ -36,11 +35,7 @@ typedef struct {
 
 
 
-@interface UTMConverter : NSObject {
-@private    
-    UTMDatum _utmDatum;
-    UTMDouble _utmScaleFactor;
-}
+@interface CLPGeodeticUTMConverter : NSObject
 
 @property (nonatomic, assign) UTMDatum utmDatum;
 
@@ -50,3 +45,18 @@ typedef struct {
 - (CLLocationCoordinate2D)UTMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)UTMCoordinates;
 - (UTMCoordinates)latitudeAndLongitudeToUTMCoordinates:(CLLocationCoordinate2D)latitudeAndLongitudeCoordinates;
 @end
+
+
+
+#ifndef CLPGeodeticUTMConverter_UTMDatumMake
+#define CLPGeodeticUTMConverter_UTMDatumMake
+
+static inline UTMDatum UTMDatumMake(UTMDouble equitorialRadius, UTMDouble polarRadius) {
+    UTMDatum utmDatum;
+    utmDatum.equitorialRadius = equitorialRadius;
+    utmDatum.polarRadius = polarRadius;
+    
+    return utmDatum;
+}
+
+#endif

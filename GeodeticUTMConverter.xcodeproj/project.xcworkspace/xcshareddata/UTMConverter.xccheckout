@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C2038DC8-47B9-45BC-8955-179A4DD4E554</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UTMConverter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>47B96EF2-CB74-4D62-B946-AACC6E731CD6</key>
+		<string>https://github.com/palmerc/UTMConverter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UTMConverter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>47B96EF2-CB74-4D62-B946-AACC6E731CD6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/palmerc/UTMConverter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>47B96EF2-CB74-4D62-B946-AACC6E731CD6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>47B96EF2-CB74-4D62-B946-AACC6E731CD6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UTMConverter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

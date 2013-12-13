@@ -8,7 +8,7 @@
 
 #import "UTMConverterTests.h"
 
-#import "UTMConverter.h"
+#import "CLPGeodeticUTMConverter.h"
 
 
 
@@ -29,7 +29,7 @@
     coordinates.gridZone = 32;
     coordinates.hemisphere = kUTMHemisphereNorthern;
     
-    UTMConverter *utmConverter = [[UTMConverter alloc] init];
+    CLPGeodeticUTMConverter *utmConverter = [[CLPGeodeticUTMConverter alloc] init];
     CLLocationCoordinate2D latLong = [utmConverter UTMCoordinatesToLatitudeAndLongitude:coordinates];
     [utmConverter release];
     
@@ -43,7 +43,7 @@
     coordingates.latitude = 59.912814611065265;
     coordingates.longitude = 10.760192985178369;
 
-    UTMConverter *utmConverter = [[UTMConverter alloc] init];
+    CLPGeodeticUTMConverter *utmConverter = [[CLPGeodeticUTMConverter alloc] init];
     UTMCoordinates utmCoordinates = [utmConverter latitudeAndLongitudeToUTMCoordinates:coordingates];
     [utmConverter release];
 

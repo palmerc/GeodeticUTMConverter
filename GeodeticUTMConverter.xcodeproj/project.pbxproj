@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C79D72CE185B13420093985D /* CLPGeodeticUTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72B6185B13420093985D /* CLPGeodeticUTMConverter.m */; };
+		C79D72CF185B13420093985D /* CLPAddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72BA185B13420093985D /* CLPAddressAnnotation.m */; };
+		C79D72D0185B13420093985D /* CLPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72BC185B13420093985D /* CLPAppDelegate.m */; };
+		C79D72D1185B13420093985D /* CLPMapTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72BE185B13420093985D /* CLPMapTestViewController.m */; };
+		C79D72D2185B13420093985D /* CLPMapTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79D72BF185B13420093985D /* CLPMapTestViewController.xib */; };
+		C79D72D3185B13420093985D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C79D72C1185B13420093985D /* Default-568h@2x.png */; };
+		C79D72D4185B13420093985D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C79D72C2185B13420093985D /* InfoPlist.strings */; };
+		C79D72D6185B13420093985D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72C7185B13420093985D /* main.m */; };
+		C79D72D7185B13420093985D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C79D72C9185B13420093985D /* InfoPlist.strings */; };
+		C79D72DA185B135B0093985D /* CLPGeodeticUTMConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72B6185B13420093985D /* CLPGeodeticUTMConverter.m */; };
+		C79D72DB185B13630093985D /* UTMConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C79D72CD185B13420093985D /* UTMConverterTests.m */; };
+		C7D6D3E91598F89600CDB537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3E81598F89600CDB537 /* UIKit.framework */; };
+		C7D6D3EB1598F89600CDB537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3EA1598F89600CDB537 /* Foundation.framework */; };
+		C7D6D3ED1598F89600CDB537 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3EC1598F89600CDB537 /* CoreGraphics.framework */; };
+		C7D6D4011598F89600CDB537 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D4001598F89600CDB537 /* SenTestingKit.framework */; };
+		C7D6D4021598F89600CDB537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3E81598F89600CDB537 /* UIKit.framework */; };
+		C7D6D4031598F89600CDB537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D3EA1598F89600CDB537 /* Foundation.framework */; };
+		C7D6D4201598FE2B00CDB537 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6D41F1598FE2A00CDB537 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7D6D4041598F89600CDB537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7D6D3DB1598F89600CDB537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7D6D3E31598F89600CDB537;
+			remoteInfo = UTMConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C79D72B5185B13420093985D /* CLPGeodeticUTMConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPGeodeticUTMConverter.h; sourceTree = "<group>"; };
+		C79D72B6185B13420093985D /* CLPGeodeticUTMConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPGeodeticUTMConverter.m; sourceTree = "<group>"; };
+		C79D72B9185B13420093985D /* CLPAddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPAddressAnnotation.h; sourceTree = "<group>"; };
+		C79D72BA185B13420093985D /* CLPAddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPAddressAnnotation.m; sourceTree = "<group>"; };
+		C79D72BB185B13420093985D /* CLPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPAppDelegate.h; sourceTree = "<group>"; };
+		C79D72BC185B13420093985D /* CLPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPAppDelegate.m; sourceTree = "<group>"; };
+		C79D72BD185B13420093985D /* CLPMapTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPMapTestViewController.h; sourceTree = "<group>"; };
+		C79D72BE185B13420093985D /* CLPMapTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPMapTestViewController.m; sourceTree = "<group>"; };
+		C79D72BF185B13420093985D /* CLPMapTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLPMapTestViewController.xib; sourceTree = "<group>"; };
+		C79D72C1185B13420093985D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C79D72C3185B13420093985D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C79D72C5185B13420093985D /* GeodeticUTMConverter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GeodeticUTMConverter-Info.plist"; sourceTree = "<group>"; };
+		C79D72C6185B13420093985D /* GeodeticUTMConverter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeodeticUTMConverter-Prefix.pch"; sourceTree = "<group>"; };
+		C79D72C7185B13420093985D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C79D72CA185B13420093985D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C79D72CB185B13420093985D /* GeodeticUTMConverterTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GeodeticUTMConverterTests-Info.plist"; sourceTree = "<group>"; };
+		C79D72CC185B13420093985D /* UTMConverterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMConverterTests.h; sourceTree = "<group>"; };
+		C79D72CD185B13420093985D /* UTMConverterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTMConverterTests.m; sourceTree = "<group>"; };
+		C7D6D3E41598F89600CDB537 /* GeodeticUTMConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeodeticUTMConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D6D3E81598F89600CDB537 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7D6D3EA1598F89600CDB537 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7D6D3EC1598F89600CDB537 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7D6D3FF1598F89600CDB537 /* GeodeticUTMConverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeodeticUTMConverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D6D4001598F89600CDB537 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C7D6D41F1598FE2A00CDB537 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7D6D3E11598F89600CDB537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6D4201598FE2B00CDB537 /* MapKit.framework in Frameworks */,
+				C7D6D3E91598F89600CDB537 /* UIKit.framework in Frameworks */,
+				C7D6D3EB1598F89600CDB537 /* Foundation.framework in Frameworks */,
+				C7D6D3ED1598F89600CDB537 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D6D3FB1598F89600CDB537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6D4011598F89600CDB537 /* SenTestingKit.framework in Frameworks */,
+				C7D6D4021598F89600CDB537 /* UIKit.framework in Frameworks */,
+				C7D6D4031598F89600CDB537 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C79D72B3185B13420093985D /* GeodeticUTMConverter */ = {
+			isa = PBXGroup;
+			children = (
+				C79D72B4185B13420093985D /* Classes */,
+				C79D72B7185B13420093985D /* Example */,
+			);
+			path = GeodeticUTMConverter;
+			sourceTree = "<group>";
+		};
+		C79D72B4185B13420093985D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C79D72B5185B13420093985D /* CLPGeodeticUTMConverter.h */,
+				C79D72B6185B13420093985D /* CLPGeodeticUTMConverter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C79D72B7185B13420093985D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C79D72B8185B13420093985D /* Classes */,
+				C79D72C0185B13420093985D /* Resources */,
+				C79D72C4185B13420093985D /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		C79D72B8185B13420093985D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C79D72B9185B13420093985D /* CLPAddressAnnotation.h */,
+				C79D72BA185B13420093985D /* CLPAddressAnnotation.m */,
+				C79D72BB185B13420093985D /* CLPAppDelegate.h */,
+				C79D72BC185B13420093985D /* CLPAppDelegate.m */,
+				C79D72BD185B13420093985D /* CLPMapTestViewController.h */,
+				C79D72BE185B13420093985D /* CLPMapTestViewController.m */,
+				C79D72BF185B13420093985D /* CLPMapTestViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C79D72C0185B13420093985D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C79D72C1185B13420093985D /* Default-568h@2x.png */,
+				C79D72C2185B13420093985D /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C79D72C4185B13420093985D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C79D72C5185B13420093985D /* GeodeticUTMConverter-Info.plist */,
+				C79D72C6185B13420093985D /* GeodeticUTMConverter-Prefix.pch */,
+				C79D72C7185B13420093985D /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C79D72C8185B13420093985D /* GeodeticUTMConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C79D72C9185B13420093985D /* InfoPlist.strings */,
+				C79D72CB185B13420093985D /* GeodeticUTMConverterTests-Info.plist */,
+				C79D72CC185B13420093985D /* UTMConverterTests.h */,
+				C79D72CD185B13420093985D /* UTMConverterTests.m */,
+			);
+			path = GeodeticUTMConverterTests;
+			sourceTree = "<group>";
+		};
+		C7D6D3D91598F89600CDB537 = {
+			isa = PBXGroup;
+			children = (
+				C79D72B3185B13420093985D /* GeodeticUTMConverter */,
+				C79D72C8185B13420093985D /* GeodeticUTMConverterTests */,
+				C7D6D3E71598F89600CDB537 /* Frameworks */,
+				C7D6D3E51598F89600CDB537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7D6D3E51598F89600CDB537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6D3E41598F89600CDB537 /* GeodeticUTMConverter.app */,
+				C7D6D3FF1598F89600CDB537 /* GeodeticUTMConverterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7D6D3E71598F89600CDB537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6D41F1598FE2A00CDB537 /* MapKit.framework */,
+				C7D6D3E81598F89600CDB537 /* UIKit.framework */,
+				C7D6D3EA1598F89600CDB537 /* Foundation.framework */,
+				C7D6D3EC1598F89600CDB537 /* CoreGraphics.framework */,
+				C7D6D4001598F89600CDB537 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7D6D3E31598F89600CDB537 /* GeodeticUTMConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D6D4111598F89600CDB537 /* Build configuration list for PBXNativeTarget "GeodeticUTMConverter" */;
+			buildPhases = (
+				C7D6D3E01598F89600CDB537 /* Sources */,
+				C7D6D3E11598F89600CDB537 /* Frameworks */,
+				C7D6D3E21598F89600CDB537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeodeticUTMConverter;
+			productName = UTMConverter;
+			productReference = C7D6D3E41598F89600CDB537 /* GeodeticUTMConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7D6D3FE1598F89600CDB537 /* GeodeticUTMConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D6D4141598F89600CDB537 /* Build configuration list for PBXNativeTarget "GeodeticUTMConverterTests" */;
+			buildPhases = (
+				C7D6D3FA1598F89600CDB537 /* Sources */,
+				C7D6D3FB1598F89600CDB537 /* Frameworks */,
+				C7D6D3FC1598F89600CDB537 /* Resources */,
+				C7D6D3FD1598F89600CDB537 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7D6D4051598F89600CDB537 /* PBXTargetDependency */,
+			);
+			name = GeodeticUTMConverterTests;
+			productName = UTMConverterTests;
+			productReference = C7D6D3FF1598F89600CDB537 /* GeodeticUTMConverterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7D6D3DB1598F89600CDB537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = C7D6D3DE1598F89600CDB537 /* Build configuration list for PBXProject "GeodeticUTMConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7D6D3D91598F89600CDB537;
+			productRefGroup = C7D6D3E51598F89600CDB537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7D6D3E31598F89600CDB537 /* GeodeticUTMConverter */,
+				C7D6D3FE1598F89600CDB537 /* GeodeticUTMConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7D6D3E21598F89600CDB537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79D72D2185B13420093985D /* CLPMapTestViewController.xib in Resources */,
+				C79D72D4185B13420093985D /* InfoPlist.strings in Resources */,
+				C79D72D3185B13420093985D /* Default-568h@2x.png in Resources */,
+				C79D72D7185B13420093985D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D6D3FC1598F89600CDB537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7D6D3FD1598F89600CDB537 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7D6D3E01598F89600CDB537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79D72D6185B13420093985D /* main.m in Sources */,
+				C79D72CE185B13420093985D /* CLPGeodeticUTMConverter.m in Sources */,
+				C79D72D1185B13420093985D /* CLPMapTestViewController.m in Sources */,
+				C79D72D0185B13420093985D /* CLPAppDelegate.m in Sources */,
+				C79D72CF185B13420093985D /* CLPAddressAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D6D3FA1598F89600CDB537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79D72DA185B135B0093985D /* CLPGeodeticUTMConverter.m in Sources */,
+				C79D72DB185B13630093985D /* UTMConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7D6D4051598F89600CDB537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7D6D3E31598F89600CDB537 /* GeodeticUTMConverter */;
+			targetProxy = C7D6D4041598F89600CDB537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C79D72C2185B13420093985D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C79D72C3185B13420093985D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C79D72C9185B13420093985D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C79D72CA185B13420093985D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7D6D40F1598F89600CDB537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7D6D4101598F89600CDB537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7D6D4121598F89600CDB537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = "GeodeticUTMConverter/Example/Supporting Files/GeodeticUTMConverter-Prefix.pch";
+				INFOPLIST_FILE = "GeodeticUTMConverter/Example/Supporting Files/GeodeticUTMConverter-Info.plist";
+				PRODUCT_NAME = GeodeticUTMConverter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7D6D4131598F89600CDB537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = "GeodeticUTMConverter/Example/Supporting Files/GeodeticUTMConverter-Prefix.pch";
+				INFOPLIST_FILE = "GeodeticUTMConverter/Example/Supporting Files/GeodeticUTMConverter-Info.plist";
+				PRODUCT_NAME = GeodeticUTMConverter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C7D6D4151598F89600CDB537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UTMConverter.app/UTMConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UTMConverter/UTMConverter-Prefix.pch";
+				INFOPLIST_FILE = "UTMConverterTests/GeodeticUTMConverterTests-Info.plist";
+				PRODUCT_NAME = GeodeticUTMConverterTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C7D6D4161598F89600CDB537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UTMConverter.app/UTMConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UTMConverter/UTMConverter-Prefix.pch";
+				INFOPLIST_FILE = "UTMConverterTests/GeodeticUTMConverterTests-Info.plist";
+				PRODUCT_NAME = GeodeticUTMConverterTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7D6D3DE1598F89600CDB537 /* Build configuration list for PBXProject "GeodeticUTMConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D6D40F1598F89600CDB537 /* Debug */,
+				C7D6D4101598F89600CDB537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D6D4111598F89600CDB537 /* Build configuration list for PBXNativeTarget "GeodeticUTMConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D6D4121598F89600CDB537 /* Debug */,
+				C7D6D4131598F89600CDB537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D6D4141598F89600CDB537 /* Build configuration list for PBXNativeTarget "GeodeticUTMConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D6D4151598F89600CDB537 /* Debug */,
+				C7D6D4161598F89600CDB537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7D6D3DB1598F89600CDB537 /* Project object */;
+}

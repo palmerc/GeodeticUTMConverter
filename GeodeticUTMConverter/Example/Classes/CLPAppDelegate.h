@@ -1,5 +1,5 @@
 //
-//  MapTest.h
+//  CPAppDelegate.h
 //  UTMConverter
 //
 //  Created by Cameron Lowell Palmer & Mariia Ruchko on 19.06.12.
@@ -8,14 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import <MapKit/MapKit.h>
-
-
-@interface MapTest : UIViewController {
+@interface CLPAppDelegate : UIResponder <UIApplicationDelegate> {
 @private
-    MKMapView *_mapView;
+    UIViewController *_mapTest;
 }
 
-@property (nonatomic, retain) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) UIWindow *window;
 
 @end
