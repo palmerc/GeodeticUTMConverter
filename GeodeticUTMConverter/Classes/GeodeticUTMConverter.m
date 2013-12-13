@@ -1,6 +1,6 @@
 //
-//  UTMConverter.m
-//  UTMConverter
+//  GeodeticUTMConverter.m
+//  GeodeticUTMConverter
 //
 //  Created by Cameron Lowell Palmer & Mariia Ruchko on 19.06.12.
 //  Copyright (c) 2012 Cameron Lowell Palmer & Mariia Ruchko. All rights reserved.
@@ -23,6 +23,22 @@ double degreesToRadians(double degrees);
 
 
 @implementation GeodeticUTMConverter
+
++ (CLLocationCoordinate2D)UTMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)UTMCoordinates
+{
+    GeodeticUTMConverter *utmConverter = [[GeodeticUTMConverter alloc] init];
+    CLLocationCoordinate2D latLong = [utmConverter UTMCoordinatesToLatitudeAndLongitude:UTMCoordinates];
+    return latLong;
+}
+
++ (UTMCoordinates)latitudeAndLongitudeToUTMCoordinates:(CLLocationCoordinate2D)latitudeAndLongitudeCoordinates
+{
+    GeodeticUTMConverter *utmConverter = [[self alloc] init];
+    UTMCoordinates utmCoordinates = [utmConverter latitudeAndLongitudeToUTMCoordinates:latitudeAndLongitudeCoordinates];
+    return utmCoordinates;
+}
+
+
 
 - (id)init {
     self = [super init];
@@ -53,6 +69,7 @@ double degreesToRadians(double degrees);
 
 
 #pragma mark - Public Interface methods
+
 - (UTMCoordinates)latitudeAndLongitudeToUTMCoordinates:(CLLocationCoordinate2D)latitudeAndLongitudeCoordinates {
     UTMCoordinates utmCoordinates;
     

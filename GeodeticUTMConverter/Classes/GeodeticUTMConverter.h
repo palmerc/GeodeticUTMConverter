@@ -1,6 +1,6 @@
 //
-//  UTMConverter.h
-//  UTMConverter
+//  GeodeticUTMConverter.h
+//  GeodeticUTMConverter
 //
 //  Created by Cameron Lowell Palmer & Mariia Ruchko on 19.06.12.
 //  Copyright (c) 2012 Cameron Lowell Palmer & Mariia Ruchko. All rights reserved.
@@ -39,7 +39,9 @@ typedef struct {
 
 @property (nonatomic, assign) UTMDatum utmDatum;
 
-- (id)init;
++ (CLLocationCoordinate2D)UTMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)UTMCoordinates;
++ (UTMCoordinates)latitudeAndLongitudeToUTMCoordinates:(CLLocationCoordinate2D)latitudeAndLongitudeCoordinates;
+
 - (id)initWithDatum:(UTMDatum)datum;
 
 - (CLLocationCoordinate2D)UTMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)UTMCoordinates;
