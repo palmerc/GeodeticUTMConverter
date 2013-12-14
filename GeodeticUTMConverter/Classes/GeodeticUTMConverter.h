@@ -53,12 +53,24 @@ typedef struct {
 #ifndef CLPGeodeticUTMConverter_UTMDatumMake
 #define CLPGeodeticUTMConverter_UTMDatumMake
 
-static inline UTMDatum UTMDatumMake(UTMDouble equitorialRadius, UTMDouble polarRadius) {
-    UTMDatum utmDatum;
-    utmDatum.equitorialRadius = equitorialRadius;
-    utmDatum.polarRadius = polarRadius;
+static inline UTMCoordinates UTMCoordinatesMake(UTMDouble northing, UTMDouble easting, UTMGridZone gridZone, UTMHemisphere hemisphere)
+{
+    UTMCoordinates UTMCoordinates;
+    UTMCoordinates.northing = northing;
+    UTMCoordinates.easting = easting;
+    UTMCoordinates.gridZone = gridZone;
+    UTMCoordinates.hemisphere = hemisphere;
     
-    return utmDatum;
+    return UTMCoordinates;
+}
+
+static inline UTMDatum UTMDatumMake(UTMDouble equitorialRadius, UTMDouble polarRadius)
+{
+    UTMDatum UTMDatum;
+    UTMDatum.equitorialRadius = equitorialRadius;
+    UTMDatum.polarRadius = polarRadius;
+    
+    return UTMDatum;
 }
 
 #endif

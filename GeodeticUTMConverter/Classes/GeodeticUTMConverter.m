@@ -40,7 +40,8 @@ double degreesToRadians(double degrees);
 
 
 
-- (id)init {
+- (id)init
+{
     self = [super init];
     if (self != nil) {
         UTMDouble equitorialRadius = 6378137;
@@ -55,7 +56,8 @@ double degreesToRadians(double degrees);
     return self;
 }
 
-- (id)initWithDatum:(UTMDatum)utmDatum {
+- (id)initWithDatum:(UTMDatum)utmDatum
+{
     self = [super init];
     if (self != nil) {
         _utmDatum = utmDatum;
@@ -70,7 +72,8 @@ double degreesToRadians(double degrees);
 
 #pragma mark - Public Interface methods
 
-- (UTMCoordinates)latitudeAndLongitudeToUTMCoordinates:(CLLocationCoordinate2D)latitudeAndLongitudeCoordinates {
+- (UTMCoordinates)latitudeAndLongitudeToUTMCoordinates:(CLLocationCoordinate2D)latitudeAndLongitudeCoordinates
+{
     UTMCoordinates utmCoordinates;
     
     UTMGridZone zone = floor((latitudeAndLongitudeCoordinates.longitude + 180.0) / 6) + 1;
@@ -101,7 +104,8 @@ double degreesToRadians(double degrees);
     return utmCoordinates;
 }
 
-- (CLLocationCoordinate2D)UTMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)UTMCoordinates {
+- (CLLocationCoordinate2D)UTMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)UTMCoordinates
+{
     UTMDouble cmeridian;
     
     UTMDouble x = UTMCoordinates.easting;
@@ -136,7 +140,8 @@ double degreesToRadians(double degrees);
 
 //
 // Computes the ellipsoidal distance from the equator to a point at a given latitude in meters
-- (UTMDouble)arcLengthOfMeridian:(UTMDouble)latitudeInRadians {
+- (UTMDouble)arcLengthOfMeridian:(UTMDouble)latitudeInRadians
+{
     UTMDouble alpha;
     UTMDouble beta;
     UTMDouble gamma;
@@ -175,7 +180,8 @@ double degreesToRadians(double degrees);
 
 //
 // Determines the central meridian for the given UTM zone.
-- (UTMDouble)UTMCentralMeridian:(UTMGridZone)zone {
+- (UTMDouble)UTMCentralMeridian:(UTMGridZone)zone
+{
     UTMDouble cmeridian;
     
     cmeridian = degreesToRadians(-183.0 + (zone * 6.0));
@@ -185,7 +191,8 @@ double degreesToRadians(double degrees);
 
 //
 // Computes the footpoint latitude for use in converting transverse Mercator coordinates to ellipsoidal coordinates.
-- (UTMDouble)footpointLatitude:(UTMDouble)northingInMeters {
+- (UTMDouble)footpointLatitude:(UTMDouble)northingInMeters
+{
     UTMDouble y;
     UTMDouble alpha; 
     UTMDouble beta;
@@ -229,7 +236,8 @@ double degreesToRadians(double degrees);
 
 //
 // Converts a latitude/longitude pair to x and y coordinates in the Transverse Mercator projection.  Note that Transverse Mercator is not the same as UTM; a scale factor is required to convert between them.
-- (UTMCoordinates)latitudeAndLongitudeToTMCoordinates:(CLLocationCoordinate2D)coordinates centralMeridian:(UTMDouble)lambda0 {
+- (UTMCoordinates)latitudeAndLongitudeToTMCoordinates:(CLLocationCoordinate2D)coordinates centralMeridian:(UTMDouble)lambda0
+{
     UTMCoordinates tmCoordinates;
     
     UTMDouble N, nu2, ep2, t, t2, l;
@@ -286,7 +294,8 @@ double degreesToRadians(double degrees);
 // Remarks:
 // The local variables Nf, nuf2, tf, and tf2 serve the same purpose as N, nu2, t, and t2 in MapLatLonToXY, but they are computed with respect to the footpoint latitude phif.
 // x1frac, x2frac, x2poly, x3poly, etc. are to enhance readability and to optimize computations.
-- (CLLocationCoordinate2D)TMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)TMCoordinates andCentralMeridian:(UTMDouble)lambda0 {
+- (CLLocationCoordinate2D)TMCoordinatesToLatitudeAndLongitude:(UTMCoordinates)TMCoordinates andCentralMeridian:(UTMDouble)lambda0
+{
     CLLocationCoordinate2D coordinates;
     
     UTMDouble x = TMCoordinates.easting;
@@ -368,11 +377,13 @@ double degreesToRadians(double degrees);
 
 //
 // Radians to Degrees and vice-versa
-double radiansToDegrees(double radians) {   
+double radiansToDegrees(double radians)
+{
     return radians * 180 / M_PI;
 }
 
-double degreesToRadians(double degrees) {   
+double degreesToRadians(double degrees)
+{
     return degrees / 180 * M_PI;
 }
 
