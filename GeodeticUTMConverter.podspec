@@ -12,6 +12,7 @@ Universal Transverse Mercator (UTM) was a method used primarily by the US Army C
   s.license      = { :type => 'BSD', :file => 'LICENSE' }
 
   s.author       = { "Cameron Lowell Palmer" => "cameron.palmer@gmail.com" }
+  s.social_media_url = 'https://twitter.com/palmerc'
   s.source       = { :git => "https://github.com/palmerc/GeodeticUTMConverter.git", :tag => "v1.0.5"}
   s.prefix_header_contents = '#import <MapKit/MapKit.h>'
   s.source_files = "GeodeticUTMConverter/Classes/GeodeticUTMConverter.{h,m}"
