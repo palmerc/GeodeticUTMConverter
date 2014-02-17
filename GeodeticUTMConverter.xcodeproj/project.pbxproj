@@ -239,6 +239,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					C7D6D3FE1598F89600CDB537 = {
+						TestTargetID = C7D6D3E31598F89600CDB537;
+					};
+				};
 			};
 			buildConfigurationList = C7D6D3DE1598F89600CDB537 /* Build configuration list for PBXProject "GeodeticUTMConverter" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -422,14 +427,14 @@
 		C7D6D4151598F89600CDB537 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UTMConverter.app/UTMConverter";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeodeticUTMConverter.app/GeodeticUTMConverter";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UTMConverter/UTMConverter-Prefix.pch";
-				INFOPLIST_FILE = "UTMConverterTests/GeodeticUTMConverterTests-Info.plist";
+				GCC_PREFIX_HEADER = "GeodeticUTMConverter/Example/Supporting Files/GeodeticUTMConverter-Prefix.pch";
+				INFOPLIST_FILE = "GeodeticUTMConverterTests/GeodeticUTMConverterTests-Info.plist";
 				PRODUCT_NAME = GeodeticUTMConverterTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -439,14 +444,14 @@
 		C7D6D4161598F89600CDB537 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UTMConverter.app/UTMConverter";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeodeticUTMConverter.app/GeodeticUTMConverter";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UTMConverter/UTMConverter-Prefix.pch";
-				INFOPLIST_FILE = "UTMConverterTests/GeodeticUTMConverterTests-Info.plist";
+				GCC_PREFIX_HEADER = "GeodeticUTMConverter/Example/Supporting Files/GeodeticUTMConverter-Prefix.pch";
+				INFOPLIST_FILE = "GeodeticUTMConverterTests/GeodeticUTMConverterTests-Info.plist";
 				PRODUCT_NAME = GeodeticUTMConverterTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
