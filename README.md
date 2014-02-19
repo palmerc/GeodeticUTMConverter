@@ -7,19 +7,19 @@ In Norway, this UTM system is a standard way for governmental organizations to d
 #### Sample Code ####
 
 ```objective-c
-    UTMCoordinates coordinates;
-    coordinates.gridZone = 32;
-    coordinates.northing = 6643010;
-    coordinates.easting = 598430;
-    coordinates.hemisphere = kUTMHemisphereNorthern;
+UTMCoordinates coordinates;
+coordinates.gridZone = 32;
+coordinates.northing = 6643010;
+coordinates.easting = 598430;
+coordinates.hemisphere = kUTMHemisphereNorthern;
     
-    CLLocationCoordinate2D groenland = [GeodeticUTMConverter UTMCoordinatesToLatitudeAndLongitude:coordinates];
+CLLocationCoordinate2D groenland = [GeodeticUTMConverter UTMCoordinatesToLatitudeAndLongitude:coordinates];
 ```
 
 If you want to supply your own Datum, then
 
 ```objective-c
-    GeodeticUTMConverter *converter = [[GeodeticUTMConverter alloc] initWithDatum:UTMDatumMake(6378137, 6356752.3142)];
+GeodeticUTMConverter *converter = [[GeodeticUTMConverter alloc] initWithDatum:UTMDatumMake(6378137, 6356752.3142)];
 ```
 
 [1]: http://labs.trafikanten.no/2011/3/22/hvordan-bruke-json-data.aspx
