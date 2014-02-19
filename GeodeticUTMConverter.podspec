@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GeodeticUTMConverter"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.platform     = :ios, "6.0"
   s.summary      = "An Objective-C UTM to LatLon Converter."
   s.description  = <<-DESC
